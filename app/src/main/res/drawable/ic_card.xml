@@ -1,0 +1,59 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="32dp"
+    android:viewportWidth="24"
+    android:viewportHeight="32">
+
+    <!-- Fondo de la carta -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M2,2h20v28h-20z"
+        android:strokeColor="#000000"
+        android:strokeWidth="0.5" />
+
+    <!-- Símbolo del corazón grande -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M12,22
+            c-1.104,0 -2,-0.896 -2,-2
+            c0,-2 2,-4 2,-4
+            c0,0 2,2 2,4
+            c0,1.104 -0.896,2 -2,2z" />
+
+    <!-- Corazón grande -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M12,18
+            l2.5,2.5
+            l-2.5,2.5
+            l-2.5,-2.5
+            z" />
+
+    <!-- Símbolo del corazón pequeño arriba a la izquierda -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M4,6
+            c-0.552,0 -1,-0.448 -1,-1
+            c0,-1 1,-2 1,-2
+            c0,0 1,1 1,2
+            c0,0.552 -0.448,1 -1,1z" />
+
+    <!-- Número "A" en la esquina superior izquierda -->
+    <group
+        android:translateX="2"
+        android:translateY="4">
+        <path
+            android:fillColor="#000000"
+            android:pathData="M1.2,0h1.6v1.6h1.6v1.6h-1.6v1.6h-1.6v-1.6h-1.6v-1.6h1.6z"/>
+    </group>
+
+    <!-- Número "A" en la esquina inferior derecha (girado 180 grados) -->
+    <group
+        android:translateX="20"
+        android:translateY="28"
+        android:rotation="180">
+        <path
+            android:fillColor="#000000"
+            android:pathData="M1.2,0h1.6v1.6h1.6v1.6h-1.6v1.6h-1.6v-1.6h-1.6v-1.6h1.6z"/>
+    </group>
+</vector>
