@@ -1,0 +1,1 @@
+Ejemplo de una aplicación con horóscopos siguiendo un tutorial desde Youtube por AristiDevs
