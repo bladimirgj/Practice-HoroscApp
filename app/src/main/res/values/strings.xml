@@ -7,4 +7,18 @@
     <string name="menu_horoscope">Horoscopo</string>
     <string name="menu_palmistry">Palmistry</string>
     <string name="menu_luck">Luck</string>
+
+    <!--Horoscopo-->
+    <string name="Aries">Aries</string>
+    <string name="Taurus">Tauro</string>
+    <string name="Gemini">Géminis</string>
+    <string name="Cancer">Cáncer</string>
+    <string name="Leo">Leo</string>
+    <string name="Virgo">Virgo</string>
+    <string name="Libra">Libra</string>
+    <string name="Scorpio">Escorpio</string>
+    <string name="Sagitaurus">Sagitario</string>
+    <string name="Capricorn">Capricornio</string>
+    <string name="Aquarius">Acuario</string>
+    <string name="Piscis">Piscis</string>
 </resources>
